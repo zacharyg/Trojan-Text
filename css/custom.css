@@ -1,0 +1,45 @@
+*{
+	font-family: Helvetica
+}
+
+.header-background{
+  background-color: #970f07;
+  color: white;
+}
+
+
+
+/**
+	Form
+ */
+input[type=text] {
+	padding:5px; border:2px solid #ccc 
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+input[type=text]:focus {
+	border-color:#333; 
+}
+
+input[type=submit] { 
+	background: #970f07;
+	color:white;
+}
+input:hover[type="submit"] {
+color:#f8ba17;
+}
+
+.example{
+	border:solid 2px #970f07;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float:right;
+}
