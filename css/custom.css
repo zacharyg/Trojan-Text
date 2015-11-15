@@ -11,15 +11,26 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Roboto Slab', serif;
 }
 a {
-    color: #970f07;
+    color: #a41631;
     text-decoration: none
 }
 a:hover {
     color: #f8ba17;
 }
 .header-background{
-  background-color: #970f07;
+/*    background: url(../images/Texters.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;*/
+  background: url(../images/LogoTest2.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  background-color: #a41631;
   color: white;
+
+
 }
 
 
@@ -38,7 +49,7 @@ input[type=text]:focus {
 }
 
 input[type=submit] { 
-	background: #970f07;
+	background: #a41631;
 	color:white;
 }
 input:hover[type="submit"] {
@@ -102,7 +113,7 @@ color:#f8ba17;
     height: 100%;
     width: 100%;
     padding: 3%;
-    background: #970f07;
+    background: #a41631;
     
     color: #fff;
 }
@@ -113,8 +124,8 @@ color:#f8ba17;
 
 
 /*Example area*/
-.example{
-	border:solid 2px #970f07;
+.text{
+	border:solid 2px #a41631;
 	max-width: 400px;
 	margin: 0 auto;
 }
